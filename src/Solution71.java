@@ -15,3 +15,9 @@ public class Solution71 {
          return res.isEmpty() ? "/" : res;
      }
 }
+
+//  Open a Linux Terminal window, and try some paths.
+// For example: . means current folder, .. means parent folder.
+// So "/a/b/.." means from a to b folder, and from b to b's parent folder,
+// finally we can simplified it as "/a".
+// '.' means 'right here in the current directory'. It means no change.
